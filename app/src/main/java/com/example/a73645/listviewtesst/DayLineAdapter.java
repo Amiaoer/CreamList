@@ -1,5 +1,6 @@
 package com.example.a73645.listviewtesst;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -24,6 +25,7 @@ public class DayLineAdapter extends ArrayAdapter<dayline> {
         resourceId = textViewResourceId;
     }
 
+    @SuppressLint("CutPasteId")
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
