@@ -6,26 +6,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.a73645.listviewtesst.TextActivity">
-
     <EditText
-        android:id="@+id/edit_title"
+        android:id="@+id/text_title"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:hint="标题"
-        android:maxLines="1"/>
+        android:focusable="false"/>
 
     <EditText
-        android:id="@+id/edit_todo"
+        android:id="@+id/text_todo"
         android:layout_width="fill_parent"
         android:layout_height="160dp"
-        android:hint="做点什么...？"
-        android:maxLines="5" />
+        android:focusable="false"/>
 
-    <Button
-        android:id="@+id/button_submit"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@id/edit_title"
-        android:text="提交" />
 
 </LinearLayout>
